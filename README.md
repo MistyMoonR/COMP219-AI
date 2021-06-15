@@ -28,7 +28,9 @@ UCI Machine Learning Repository:  [Optical Recognition of Handwritten Digits Dat
 ## Introduction
 
 **Dataset** : Optical recognition of handwritten digits dataset 
+
 **Algorithm** : Naive bayes 
+
 Since Naive bayes is a supervised, non-modeled classification algorithm, the implement f2 and f3 can be achieved by running the algorithm directly without save models.
 
 ## 1. Detailing how to run your program, including the software dependencies
