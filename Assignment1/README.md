@@ -1,27 +1,3 @@
-# COMP219-Advanced-Artificial-Intelligence
-
-
-最近学人工智能(AI)，学到一些算法，攒积不少（摸鱼）经验。趁这次机会写篇文章给广大学者或者有兴趣的人。也是对自己的学习总结吧。后面抽空写个关于Decision, Compution and Language的文章（不知道为啥国内在这方面学习资料非常少）
-
-Sklearn的手写字体的识别，本次用的是python3语言，会讲到的算法有四个，一个是自己写的贝叶斯算法(Naive bayes)，另一个直接调库。和神经网络的两个分别是DNN和CNN，本质上是有无convolutioal layer的区别。后面讲到算法的原理以及如何实现。过程中会用到交叉验证(cross validation), 混淆矩阵(confusion matrix) 和ROC曲线等方法来辅助理解。
-
-由于篇幅限制，这里先介绍数据集以及用法和传统机器学习算法 朴素贝叶斯的原理以及实现方式
-
-首先介绍一下本篇文章 所用的数据集是Scikit-learn的datasets，和MNIST数据集一样是用于入门学习的数据集。这里网站里有详细介绍数据集。
-
-
- [7.1. Toy datasets - scikit-learn 0.24.1 documentation](https://link.zhihu.com/?target=https%3A//scikit-learn.org/stable/datasets/toy_dataset.html%23optical-recognition-of-handwritten-digits-dataset) 
-
-
-这里我们选择直接调库，也可以手动从网站中下载数据集
-
-
-UCI Machine Learning Repository:  [Optical Recognition of Handwritten Digits Data Set](https://link.zhihu.com/?target=https%3A//archive.ics.uci.edu/ml/datasets/Optical%2BRecognition%2Bof%2BHandwritten%2BDigits) 
-
-以下内容中文部分
-
-[知乎](https://zhuanlan.zhihu.com/p/349754769)
-
 # Naive bayes
 
 ## Introduction
@@ -42,8 +18,7 @@ Software Dependencies:
 Clone to your development environment and run main.py with python 3.8 interpreter: python main.py
 User interface of python program:		
 
-![IMG](Assignment1/images/UI.png)
-
+![IMG](images/UI.png)
 
 The user selects numbers between 1 and 6 to run different implement, other numbers are not accepted.
 
@@ -117,13 +92,13 @@ Return the correct rate for each digit, and the correct quantity counter
 
 Load and print the return values of both algorithms(My naive bayes algorithms and s scikit-learn GaussianNB algorithms) by call f2 and f3 function. And use matplotlib library to create a visualization
 
-![IMG](Assignment1/images/UI2.png)
+![IMG](images/UI2.png)
 
-![IMG](Assignment1/images/BAR.png)
+![IMG](images/BAR.png)
 
 `def f5(): `Detect the input number and returns the aim image and the detail of data
 
-![IMG](Assignment1/images/show.png)
+![IMG](images/show.png)
 
 **Additional requirements:**
 Design interactive interface, users can directly run F1 – F6 programs by input instructions. Bar chart is used in the F5 program to visually compare the train dataset and test dataset accuracy under different algorithms.
@@ -155,6 +130,3 @@ The naive bayes algorithm is used to classify the Optical recognition of handwri
 
  `variance`: The variance of train dataset features classes
 ****
-
-
-

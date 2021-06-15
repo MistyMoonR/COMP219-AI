@@ -1,24 +1,28 @@
 # Naive bayes
 
-## Introduction
 
-**Dataset** : Optical recognition of handwritten digits dataset 
-**Algorithm** : Naive bayes 
-Since Naive bayes is a supervised, non-modeled classification algorithm, the implement f2 and f3 can be achieved by running the algorithm directly without save models.
+## 1. Detailing how to run your program, including the software dependencies
 
-## Detailing how to run your program, including the software dependencies
 Software Dependencies:
 
-	Python 3.8			
-	NumPy 1.19.2		
-	Scikit-learn 0.23.2
-	Matplotlib 3.3.2		
+- Python 3.8
+
+- Numpy 1.19.5
+
+- Scikit-learn 0.24.0
+
+- Keras 2.4.3
+
+- Tensorflow 2.4.0
+
+- Matplotlib 3.3.3
  
 **How to run program:**
-Clone to your development environment and run main.py with python 3.8 interpreter: python main.py
-User interface of python program:		
+Clone to your development environment and run main.py with python 3.7 interpreter: python main.py 
 
-![IMG](/images/UI.png)
+User interface of python program:	
+
+![IMG](images/UI.png)
 
 The user selects numbers between 1 and 6 to run different implement, other numbers are not accepted.
 
@@ -92,13 +96,13 @@ Return the correct rate for each digit, and the correct quantity counter
 
 Load and print the return values of both algorithms(My naive bayes algorithms and s scikit-learn GaussianNB algorithms) by call f2 and f3 function. And use matplotlib library to create a visualization
 
-![IMG](/images/UI2.png)
+![IMG](images/UI2.png)
 
-![IMG](/images/BAR.png)
+![IMG](images/BAR.png)
 
 `def f5(): `Detect the input number and returns the aim image and the detail of data
 
-![IMG](/images/show.png)
+![IMG](images/show.png)
 
 **Additional requirements:**
 Design interactive interface, users can directly run F1 – F6 programs by input instructions. Bar chart is used in the F5 program to visually compare the train dataset and test dataset accuracy under different algorithms.
